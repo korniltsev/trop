@@ -48,11 +48,7 @@ class TROP:
                     }
 
 
-        # for i in regs:
-        #     print i, regs[i]
-
-
-    def get_payload(self):
+    def chain(self):
         return self.payload
 
     def get_code(self):
